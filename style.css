@@ -1,0 +1,415 @@
+.navbar-brand>img {
+    position: absolute;
+    left: 44%;
+    top: 0;
+    margin: auto;
+    padding: 0 0;
+    width: auto;
+    height: 96%;
+}
+.navbar-brand{
+    padding: 0 0;
+    height: auto;
+}
+.navbar-toggle {
+    z-index:50;
+}
+.black-bg{
+  /*background: rgba(0,0,0,0.8);*/
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  z-index: 99;
+}
+.navbar-inverse{
+  background: rgba(0,0,0,0.8);
+}
+.navbar{
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: rgba(0,0,0,0.8);
+}
+.navbar{
+  border: none;
+}
+
+/*.navbar-nav>li>a{
+  padding-bottom: 25px;
+  padding-top: 25px;
+}*/
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #FFCE44;
+}
+/*.navbar-nav{
+  float: right;
+}*/
+.nenden{
+  background-color: black;
+}
+.flycustom>li>a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #bcbcbc;
+}
+.flycustom>li>a:hover{
+  opacity: 0.7;
+  background-color: transparent;
+}
+.flycustom>li>a:focus{
+  opacity: 0.7;
+  background-color: transparent;
+}
+.flycustom>li>p{
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-bottom:  0;
+  padding: 10px 22px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.navbar{
+  border-radius: 0;
+}
+.formsearch {
+  margin-left: 10px;
+}
+.formsearch form { 
+  position:relative;
+  overflow:hidden;
+}
+.formsearch #txtSiteSearch { 
+  font-size:10px; 
+  font-weight:400; 
+  text-transform:uppercase; 
+  color:#bcbcbc; 
+  letter-spacing:.03em; 
+  height:40px; 
+  line-height:40px; 
+  display:inherit; 
+  border:none; 
+  background-color:#000000; 
+  width:60px; 
+  margin-right:30px; }
+.formsearch #txtSiteSearch:focus { 
+  width:70px;
+   }
+.formsearch #search_sub { 
+  position:absolute; 
+  height:40px; 
+  width:20px; 
+  background-color:transparent; 
+  right:0; 
+  top:0; 
+  border:none; 
+  z-index:3; 
+  cursor:pointer; 
+}
+.formsearch img { 
+  z-index:2; 
+  position:absolute; 
+  right:0; 
+  top:50%; 
+  margin-top:-7px; 
+}
+.logo-mobi>img {
+    display: none;
+}
+.black-bg.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+.carousel-indicators {
+  z-index: 10;
+ } 
+/* Khi không xổ thanh Navbar thì luôn hiện Logo
+
+ol#hidecircle[aria-expanded="false"]{
+  height: unset!important;
+  display: block;
+} */
+.kientruc{
+  padding: 5em 0;
+}
+.du-an{
+  text-align: center;
+  margin: 0.9em 0;
+  padding-left:  11px;
+  padding-right:  11px;
+}
+.khoianh{
+  position: relative;
+}
+.content-khoi{
+  margin-top: 4.5em;
+}
+.du-an-text{
+  position: absolute;
+  background-color: #BD9D3D;
+  bottom: 0em;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  opacity: 0.6;
+  color: white;
+}
+.chuheading{
+    /*font-size: 2.5em;*/
+    color: #4DD0E1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding: .6em 0;
+    text-align: center;
+}
+.phimkientruc{
+  background: #c1b13554;
+  padding: 5em 0;
+}
+.architectmovie{
+  margin-top: 4.5em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+.chuheading4{
+  color: #4DD0E1;
+  text-transform: uppercase;
+  text-align: left;
+}
+.dongke{
+  width: 25%;
+  margin-left: 0;
+  border: solid 1px;
+}
+.dongke2{
+  width: 30%;
+  margin-left: 0;
+  border: solid 1px;
+}
+.baiviet{
+  border-bottom: solid 1px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.noidungbaiviet{
+   text-align: left;
+}
+
+.square-box{
+    position: relative;
+    box-shadow: 2px 2px 1px grey;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: #4679BD;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
+.square-content div {
+   display: table;
+   width: 100%;
+   height: 100%;
+}
+.square-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 90%;
+}
+.thuvienanh{
+  display: block;
+}
+.luoi { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  align-items: start;
+  justify-items: center;
+  }
+.luoi img {
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+.luoi img:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+  }
+.cuoitrang{
+  background: black;
+  text-align: center;
+  font-weight: bold;
+  color: #bd993491;
+  padding: 0.3em 0.3em;
+}
+.footer-flynix1{
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+}
+}
+/* Responsive Design */
+/*Đối với tất cả màn hình lớn hơn 2700px*/
+@media(min-width: 2700px){
+.architectmovie{
+  padding-left: 10em;
+  padding-right: 10em;
+}
+}
+/*Đối với tất cả màn hình lớn hơn 768px*/
+@media(min-width:768px){
+.navbar-right{
+  margin-right: 0;
+}
+.navbar-inverse .navbar-nav>li>a{
+  padding: 44px 25px;
+}
+}
+/*Bắt đầu phân loại màn hình*/
+@media(max-width: 1280px){
+.navbar-brand>img {
+ left: 39.5%;
+ height:  81%;
+ top: 6px;
+}
+}
+@media(max-width: 1000px) {
+.navbar-brand>img {
+ left: 40%;
+ height: 75%;
+ top: 7px;
+}
+img.img-responsive[aria-expanded="false"]{
+  height: 81%!important;
+}
+/*@media screen and (max-width: 940px) and (min-width: 768px){
+.navbar-brand>img {
+ left: 40%;
+ height: 86%;
+ top: 2px;
+}
+.navbar-toggle{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+img.img-responsive[aria-expanded="false"]{
+  height: 81%!important;
+}*/
+@media(max-width: 767px){
+.navbar-inverse .navbar-nav>li>a{
+  text-align: center;
+}
+.nenden{
+  display: none;
+}
+.black-bg{
+  top: 0px;
+}
+.navbar-brand>img.img-responsive{
+  display: none;
+}
+.logo-mobi>img {
+    position: relative;
+    margin-left: 36%;
+    padding: 1.2em 0;
+    height: 82px;
+    display: inline-block;
+}
+.navbar-toggle{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/*ol#hidecircle[aria-expanded="true"]{
+  display: none;
+}*/
+ul.nav.navbar-nav.navbar-left{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul.nav.navbar-nav.navbar-right{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.content-khoi{
+  margin-top: unset;
+}
+.kientruc{
+  padding: unset;
+}
+.architectmovie{
+  margin-top: unset;
+  padding-left: unset;
+  padding-right: unset;
+}
+.phimkientruc{
+  padding: unset;
+}
+}
+@media(max-width: 414px){
+.navbar-brand>img {
+ left: 31.5%;
+}
+}
+@media(max-width: 375px){
+.navbar-brand>img {
+ left: 28.5%;
+}
+}
+/*Xuất hiện menu hamburger sớm*/
+@media (min-width: 768px) and (max-width: 940px) {
+.navbar-collapse.collapse {
+  display: none !important;
+}
+.navbar-collapse.collapse.in {
+   display: block !important;
+}
+.navbar-header .collapse, .navbar-toggle {
+  display:block !important;
+}
+.navbar-header {
+  float:none;
+}
+.navbar-brand>img.img-responsive{
+  display: none;
+}
+.navbar-toggle{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.logo-mobi>img {
+    position: relative;
+    margin-left: 10%;
+    padding: 1.5em 0;
+    height: 101px;
+    display: inline-block;
+}
+.navbar-inverse .navbar-nav>li>a{
+  padding: 11px 25px;
+}
+div#navbar-collapse-1{
+  border: 0.5px solid;
+}
+}
