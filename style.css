@@ -365,7 +365,8 @@ ul.nav.navbar-nav.navbar-right{
   padding-right: unset;
 }
 .phimkientruc{
-  padding: unset;
+  padding-bottom: 1em;
+  padding-top: unset;
 }
 }
 @media(max-width: 414px){
