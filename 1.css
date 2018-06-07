@@ -18,7 +18,27 @@ a.nav-link {
     color: #101010;
     line-height: 79px;
 }
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+    position: relative;
+}
 
+.khoitt1:before {
+    position:  absolute;
+    content:  "";
+    left:  0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #e4555b;
+}
+
+body, html {
+    width: 100%;
+    height:  100%;
+}
 li.nav-item {
     margin: 0 17px;
     padding:  0;
