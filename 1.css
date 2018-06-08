@@ -1,5 +1,4 @@
 *{margin: 0; padding: 0;} 
-
 nav.navbar.navbar-light.bg-faded {
     margin:  0;
     padding:  0;
@@ -86,8 +85,42 @@ a.hirebutton.btn.btn-primary {
     border-radius:  0px;
 }
 
+.tieude {
+    margin-top: 164px;
+    margin-bottom: 60px;
+}
 
+.tieude h1 {display:  inline;text-transform:  uppercase;padding-bottom: 16px;}
 
+h2.tieude2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform:  uppercase;
+    font-size: 18px;
+    margin-bottom:  40px;
+}
+
+.khoithongtinnho h3.tieude3 {
+    font-size: 16px;
+    color: #e35835;
+    margin-bottom:  20px;
+}
+
+span.motaqt {display:  block;font-size:  13px;margin-bottom:  26px;}
+
+.khoithongtinnho p {
+    font-size:  13px;
+    line-height:  22px;
+    color: #191515c7;
+}
+
+.khoithongtinnho {
+    margin-bottom:  55px;
+}
+
+.edu img {
+    transform: translateY(+41%);
+}
 
 @media (max-width: 576px){
 	*{
