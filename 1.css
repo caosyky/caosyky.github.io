@@ -33,6 +33,7 @@ a.nav-link {
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
 }
 
 body, html {
@@ -47,6 +48,44 @@ li.nav-item {
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     background:  white;
 }
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 24%;
+}
+
+.tt img {
+    border-radius:  50%;
+    margin-bottom:  50px;
+    width: 20%;
+}
+
+.tt h2 {
+    font-size:  40px;
+    text-transform:  uppercase;
+    color: white;
+    margin-bottom:  22px;
+}
+
+.tt p {
+    color: black;
+    font-size: 16px;
+    line-height:  20px;
+    width:  50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+a.hirebutton.btn.btn-primary {
+    width:  180px;
+    background:  black;
+    border: 0;
+    border-radius:  0px;
+}
+
+
+
 
 @media (max-width: 576px){
 	*{
