@@ -1,3 +1,5 @@
+*{margin: 0; padding: 0;} 
+
 nav.navbar.navbar-light.bg-faded {
     margin:  0;
     padding:  0;
@@ -92,9 +94,21 @@ a.hirebutton.btn.btn-primary {
 		
 	}
 
+.tt img {
+    width:  203px;
+    margin-top:  104px;
+}
+
 ul.nav.navbar-nav.float-xs-right {
     float: none!important;
     text-align:  center;
+    background: white;
+    padding-left:  10px;
+    padding-right:  10px;
+}
+
+.full {
+    padding: 0;
 }
 li.nav-item {display: inline!important;float: none!important;margin:  0 0;}
 
