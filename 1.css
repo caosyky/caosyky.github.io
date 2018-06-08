@@ -20,7 +20,7 @@ a.nav-link {
     line-height: 79px;
 }
 .khoitt1 {
-    height: 100%;
+    height: auto;
     width: 100%;
     background: #e9585f;
     position: relative;
@@ -35,6 +35,10 @@ a.nav-link {
     height: 100%;
     background: #e4555b;
     z-index: 1;
+}
+
+.edu {
+    background: #F4F4E1;
 }
 
 body, html {
@@ -83,6 +87,7 @@ a.hirebutton.btn.btn-primary {
     background:  black;
     border: 0;
     border-radius:  0px;
+    margin-bottom: 16%;
 }
 
 .tieude {
@@ -156,4 +161,9 @@ a.navbar-brand {
     width:  100%;
     border-bottom: solid 1px #818a91;
 }
+
+.edu img {
+    transform: translateY(-10%);
+}
+
 }
