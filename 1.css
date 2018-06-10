@@ -195,4 +195,8 @@ a.navbar-brand {
     transform: translateY(-10%);
 }
 
+a.hirebutton.btn.btn-primary {
+	margin-bottom: 43%;
+}
+
 }
