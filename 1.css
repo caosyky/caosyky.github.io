@@ -1,8 +1,7 @@
 *{margin: 0; padding: 0;} 
-nav.navbar.navbar-light.bg-faded {
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
     margin:  0;
     padding:  0;
-    height: 100px;
 }
 a.nav-link {
     font-family:  segoe ui;
@@ -50,8 +49,8 @@ li.nav-item {
     padding:  0;
 }
 
-nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
-    background:  white;
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-color: white!important;
 }
 
 .tt {
@@ -155,6 +154,11 @@ span.motaqt {display:  block;font-size:  13px;margin-bottom:  26px;}
     margin-left:  -1.5px;
 }
 
+.picture{
+	width: 90%;
+	height: 90px;
+}
+
 /*phan loai thiet bi*/
 @media (max-width: 576px){
 	*{
@@ -166,18 +170,24 @@ span.motaqt {display:  block;font-size:  13px;margin-bottom:  26px;}
     margin-top:  104px;
 }
 
-ul.nav.navbar-nav.float-xs-right {
+ul.navbar-nav.float-right {
     float: none!important;
     text-align:  center;
     background: white;
     padding:  10px 19px;
+    display: unset;
   
 }
 
 .full {
     padding: 0;
 }
-li.nav-item {display: inline!important;float: none!important;margin:  0 0;}
+li.nav-item {
+	display: inline!important;
+	float: none!important;
+	margin:  0 0;
+    padding: 0 8px;
+}
 
 a.nav-link {
     line-height:  27px;
@@ -189,6 +199,7 @@ a.navbar-brand {
     text-align:  center;
     width:  100%;
     border-bottom: solid 1px #818a91;
+    margin-right: 0;
 }
 
 .edu img {
@@ -197,6 +208,11 @@ a.navbar-brand {
 
 a.hirebutton.btn.btn-primary {
 	margin-bottom: 43%;
+}
+
+.picture{
+	width: 59%;
+	height: 76px;
 }
 
 }
