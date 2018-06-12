@@ -1,4 +1,9 @@
-*{margin: 0; padding: 0;} 
+* {
+	margin: 0;
+	padding: 0;
+} 
+
+
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
     margin:  0;
     padding:  0;
@@ -176,17 +181,17 @@ ul.navbar-nav.float-right {
     background: white;
     padding:  10px 19px;
     display: unset;
-  
+    width:  100%;
 }
 
 .full {
     padding: 0;
 }
 li.nav-item {
-	display: inline!important;
+	display: inline-block!important;
 	float: none!important;
 	margin:  0 0;
-    padding: 0 8px;
+	padding: 0 8px;
 }
 
 a.nav-link {
