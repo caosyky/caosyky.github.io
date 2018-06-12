@@ -99,7 +99,11 @@ a.hirebutton.btn.btn-primary {
     margin-bottom: 60px;
 }
 
-.tieude h1 {display:  inline;text-transform:  uppercase;padding-bottom: 16px;}
+.tieude h1 {
+	display:  inline;
+	text-transform:  uppercase;
+	padding-bottom: 16px;
+}
 
 h2.tieude2 {
     font-weight: normal;
@@ -164,8 +168,12 @@ span.motaqt {display:  block;font-size:  13px;margin-bottom:  26px;}
 	height: 90px;
 }
 
-/*phan loai thiet bi*/
-@media (max-width: 576px){
+ul.navbar-nav.float-right {
+    flex-direction: unset;
+}
+
+/*phan loai thiet bi - xu ly responsive*/
+@media (max-width: 776px){
 	*{
 		
 	}
@@ -185,7 +193,7 @@ ul.navbar-nav.float-right {
 }
 
 .full {
-    padding: 0;
+    max-width: unset;
 }
 li.nav-item {
 	display: inline-block!important;
@@ -216,11 +224,41 @@ a.hirebutton.btn.btn-primary {
 }
 
 .picture{
+	width: 35%;
+	height: 76px;
+}
+
+}
+
+@media (max-width: 576px){
+	*{
+		
+	}
+
+.full {
+    padding: 0;
+}
+
+.picture{
+	width: 45%;
+	height: 76px;
+}
+
+}
+
+
+@media (max-width: 450px){
+	*{
+		
+	}
+
+.picture{
 	width: 59%;
 	height: 76px;
 }
 
 }
+
 
 @media (max-width: 380px){
 	*{
