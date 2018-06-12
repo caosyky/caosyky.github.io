@@ -191,7 +191,7 @@ li.nav-item {
 	display: inline-block!important;
 	float: none!important;
 	margin:  0 0;
-	padding: 0 14px;
+	padding: 0 11px;
 }
 
 a.nav-link {
@@ -221,3 +221,11 @@ a.hirebutton.btn.btn-primary {
 }
 
 }
+
+@media (max-width: 380px){
+	*{
+		
+	}
+li.nav-item {
+	padding: 0 6px;
+}	
