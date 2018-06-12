@@ -172,6 +172,16 @@ ul.navbar-nav.float-right {
     flex-direction: unset;
 }
 
+.cuoitrang {
+	background: #242729; 
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.cuoitrang p {
+	margin-bottom: 0;
+}
+
 /*phan loai thiet bi - xu ly responsive*/
 @media (max-width: 776px){
 	*{
