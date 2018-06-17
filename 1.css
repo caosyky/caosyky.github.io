@@ -132,7 +132,9 @@ span.motaqt {display:  block;font-size:  13px;margin-bottom:  26px;}
 }
 
 .edu img {
-    transform: translateY(+41%);
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
 }
 
 .conchuot {
