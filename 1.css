@@ -228,7 +228,10 @@ a.navbar-brand {
 }
 
 .edu img {
-    transform: translateY(-10%);
+    transform: unset;
+    position: unset;
+    top: unset;
+    margin-bottom: 55px;
 }
 
 a.hirebutton.btn.btn-primary {
