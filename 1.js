@@ -1,9 +1,7 @@
 ﻿ $(function(){
- 	vitrikinhnghiem = $("#kinhnghiem").offset().top;
- 	console.log(vitrikinhnghiem);
  	$(".conchuot,.kinhnghiem").click(function(){
- 		$("body,html").animate({scrollTop:vitrikinhnghiem},700)
- 		return false;
+ 		event.preventDefault();
+ 		$("body,html").animate({scrollTop: $("#kinhnghiem").offset().top},1400,"easeOutExpo")
  	})
 })  
  
